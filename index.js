@@ -22,9 +22,10 @@ db.connect(err => {
         console.log(err);
     }
     else{
-        console.log('MYSQL connected...');
+        console.log('MYSQL connected......');
     }
 });
+
 
 app.use('/', require('./routes/page'));
 app.use('/auth', require('./routes/auth'));
